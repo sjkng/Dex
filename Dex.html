@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Dex </title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="textStyle.css" />
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<input type="search" id="inputText" placeholder="Search for something on Google... " class="form-control">
+		<a href="#" class="btn" id="searchText" onclick="searchFunc()">Search</a>
+	</nav>
+
+	<div id="playground" class="playText" align="center">
+		<h4><em>Dex</em></h4>
+		<h1 class = "text-muted">Add <em>different</em> words each time</h1>
+		<input id="keywords" type="search" size="50" placeholder="Add one word at a time...">
+		<button type="button" class="btn btn-succes" id="addText" onclick="addFunc()">Add Word</button>
+
+		<p id="alertTxt" style="color:red; font-size:30px;"></p>
+		<p id="typedText">
+			This is a text.
+		</p>
+	</div>
+</body>
+<script src="textFinder.js"></script>
+</html>
