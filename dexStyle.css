@@ -1,0 +1,51 @@
+	.playText h4 {
+		margin: 50px 0px 20px 0px;
+		font-size: 30px;
+	}
+
+	.playText input[id="addInput"] {
+		margin-left: 20px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: double;
+		border: solid 3px green; 
+	}
+
+	.playText input[id="searchInput"] {
+		margin-left: 150px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: solid 3px blue; 
+		width: 20%; 
+		border-radius: 30px;
+	}
+
+	.playText button[id="addButton"] {
+		background-color: green;
+		color: whitesmoke;
+		margin-left: 20px;
+		border-radius: 5px;
+	}
+
+	.playText button[id="searchButton"] {
+		background-color: darkblue;
+		color: whitesmoke;
+		margin-left: 20px;
+		border-radius: 30px;
+	}
+
+	.playText button:hover {
+		background-color: orangered;
+	}
+
+	.playText p[id="alertTxt"] {
+		color:red; 
+		font-size:25px;
+	}
+
+	.text-muted{
+   		opacity: 0.3;
+   		font-size: 20px;
+	}
