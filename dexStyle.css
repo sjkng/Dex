@@ -3,16 +3,7 @@
 		font-size: 30px;
 	}
 
-	.playText input[id="addInput"] {
-		margin-left: 20px;
-		padding-left: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border: double;
-		border: solid 3px green; 
-	}
-
-	.playText input[id="searchInput"] {
+	.playText input {
 		margin-left: 150px;
 		padding-left: 10px;
 		padding-top: 10px;
